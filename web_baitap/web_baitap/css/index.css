@@ -1,0 +1,248 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(238, 238, 238);
+}
+
+html {
+  font-size: 32px;
+}
+@media (max-width: 5120px) {
+  html {
+    font-size: 28px;
+  }
+}
+@media (max-width: 4500px) {
+  html {
+    font-size: 26px;
+  }
+}
+@media (max-width: 4000px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (max-width: 3500px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (max-width: 3000px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (max-width: 2500px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 2000px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1500px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 10px;
+  }
+}
+.phandau {
+  position: fixed;
+  width: calc(100vw-20px);
+  background-color: rgba(198, 198, 190, 0.2);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  z-index: 10px;
+  border: none;
+}
+#logo {
+  width: 10vw;
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: bold;
+  font-style: normal;
+}
+#logo > a {
+  background: linear-gradient(
+    45deg,
+    #ff8000,
+    #0000ff
+  ); /* Gradient hình quạt từ đỏ sang xanh dương qua xanh lá */
+  -webkit-background-clip: text; /* Cắt nền gradient vào văn bản */
+  -webkit-text-fill-color: transparent; /* Làm cho màu chữ gốc trong suốt */
+  background-clip: text; /* Hỗ trợ cho các trình duyệt khác ngoài WebKit */
+  color: transparent;
+  /* Đảm bảo chữ không có màu nền mặc định */
+}
+#lienket {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#lienket > a {
+  text-align: center;
+  display: block;
+  min-width: 7rem;
+  color: red;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: aliceblue;
+  padding: 3px;
+  border-radius: 10px;
+}
+#loginout {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+#loginout > button {
+  width: 12rem;
+  padding: 5px;
+  font-size: 1.2rem;
+  background: linear-gradient(45deg, #ff8000, #0000ff);
+  border-radius: 10px;
+}
+
+#phanchinh {
+  width: calc(100vw-20px);
+  height: 900px;
+  background-image: url("/web_baitap/web_baitap/image/anhnen.jpg");
+  background-position: center;
+  background-size: cover;
+  border: none;
+}
+footer {
+  background-color: rgb(244, 231, 215);
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
+footer > .tungphan {
+  width: 25vw;
+  text-align: center;
+}
+#tungphan2 > h1 {
+  color: #0000ff;
+  font-size: 1.5rem;
+}
+#loinoi {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #000000;
+}
+#loinoi > strong {
+  color: #0000ff;
+}
+.vien {
+  height: 300px;
+  border: 2px solid;
+  color: black;
+}
+#mangxahoi {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#mangxahoi > a {
+  display: flex;
+  overflow: hidden;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-align: center;
+}
+#facebook {
+  display: block;
+  width: 19.2px;
+  height: 20.8px;
+}
+#facebook > i {
+  color: blue;
+}
+#facebook:hover {
+  overflow: visible;
+  width: 130px;
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 2s ease;
+}
+#youtube {
+  display: inline-block;
+  width: 21.6px;
+  height: 20.8px;
+}
+#youtube > i {
+  color: red;
+}
+#youtube:hover {
+  overflow: visible;
+  width: 130px;
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 2s ease;
+}
+#tiktok {
+  display: inline-block;
+  width: 16.8px;
+  height: 20.8px;
+}
+#tiktok > i {
+  color: black;
+}
+#tiktok:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  width: 130px;
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px;
+  transition: width 2s ease;
+}
+#mucdich > h1 {
+  color: #0000ff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+#dongluc > h1 {
+  color: #0000ff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
